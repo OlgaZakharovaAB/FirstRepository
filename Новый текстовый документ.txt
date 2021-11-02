@@ -1,1 +1,4 @@
 Этот документ был использован для того, чтобы проверить, как работает GitHub и как он коннектится с Desktop-ной версией
+
+t - transfered from main log
+d - deleted from main log
