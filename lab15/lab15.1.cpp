@@ -8,11 +8,11 @@ float PowerA3(float a, float b) {
 
 int main()
 {
-	float m[5];
+	float m;
 	float n;
 	int i;
 	for (i = 0; i < 5; i++) {
-		cin >> m[i];
-		cout << PowerA3(m[i], n) << endl;
+		cin >> m];
+		cout << PowerA3(m, n) << endl;
 	}
 }
