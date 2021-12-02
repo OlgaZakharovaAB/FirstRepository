@@ -12,7 +12,7 @@ int main()
 	float n;
 	int i;
 	for (i = 0; i < 5; i++) {
-		cin >> m];
+		cin >> m;
 		cout << PowerA3(m, n) << endl;
 	}
 }
