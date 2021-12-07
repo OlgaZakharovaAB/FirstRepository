@@ -5,7 +5,7 @@ int main()
 {
     int n, i;
     cin >> n;
-    int *array = new int[n];
+    float *array = new float[n];
     for (i=0; i<n; i++){
         cin >> array[i];
         if (array[i]<0){
