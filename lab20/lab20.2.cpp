@@ -6,7 +6,7 @@ int main()
     int n, i, j=0, count=1, con=1, n2;
     cin >> n;
     n2=n;
-    int a[n];
+    int *a = new int[n];
     for (i=0; i<n; i++){
         cin >> a[i];
         if (i!=0 and a[i]!=a[i-1]) count+=1;
@@ -41,9 +41,10 @@ int main()
             con=1; j++;
         }
     }
+    delete[] a;
+    a = arr;
     
     for (i=0; i<n2; i++){
-        cout << arr[i] << " ";
+        cout << a[i] << " ";
     }
-
 }
