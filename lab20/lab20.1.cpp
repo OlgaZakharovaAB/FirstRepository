@@ -11,7 +11,7 @@ int main()
         if (i!=0 and a[i]!=a[i-1]) count+=1;
     }
     int b[count], c[count];
-    for (i=0; i<n-1; i++){
+    for (i=0; i<n; i++){
         while (a[i]==a[i+1]){
             con++; i++;
         }
