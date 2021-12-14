@@ -26,9 +26,8 @@ int main()
     con=c[count-1]; c[count-1]=c[k]; c[k]=con;
     
     j=0; con=1;
-    int arr[n];
     for (i=0; i<n; i++){
-        arr[i]=c[j];
+        a[i]=c[j];
         con++;
         if (con>b[j]){
             con=1; j++;
@@ -36,7 +35,7 @@ int main()
     }
     
     for (i=0; i<n; i++){
-        cout << arr[i] << " ";
+        cout << a[i] << " ";
     }
 
 }
